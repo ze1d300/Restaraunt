@@ -5,6 +5,14 @@ $(document).ready(() => {
     paginationSpeed: 1000,
     navigation: true,
     navigationText: ["", "<i class='fa fa-angle-right'></i>"],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 4,
+      },
+    },
   });
   $("#navigation").sticky({
     topSpacing: 75,
