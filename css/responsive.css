@@ -122,7 +122,7 @@
   nav .block .navbar-default .navbar-brand > img {
     padding: 0px;
     width: 100%;
-    height: 100%;
+    height: 120%;
   }
   .heading {
     text-align: center;
@@ -144,7 +144,9 @@
   /*--
       nav
   --*/
-
+  #header-image img {
+    height: 200px;
+  }
   nav {
     position: relative;
   }
