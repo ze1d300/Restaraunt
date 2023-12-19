@@ -522,7 +522,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #contact-us .block form textarea:focus {
   border: 1px solid #7ec3bb;
 }
-#contact-us .block a {
+#contact-us .block button {
   background: var(--additional-color);
   float: right;
   color: var(--white);
